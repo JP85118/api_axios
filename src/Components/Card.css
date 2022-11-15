@@ -1,0 +1,19 @@
+.card{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.card-content{
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(115, 115, 228);
+}
+
+.card_title{
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: yellow;
+}
